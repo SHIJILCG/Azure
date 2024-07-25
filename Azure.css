@@ -1,0 +1,556 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: text-1;
+    src: url(font/latest.woff2);
+}
+@font-face {
+    font-family: text-2;
+    src: url(font/latest\ \(1\).woff2);
+}
+@font-face {
+    font-family: text-3;
+    src: url(font/MWFFluentIcons.woff2);
+}
+@font-face {
+    font-family: text-4;
+    src: url(font/mwfmdl2-v3.54.woff);
+}
+#header-1-section-1{
+    border-bottom: 1px solid #e6e6e6;
+    height: 54px;
+}
+.header-1-section-1-inner{
+    position: relative;
+    padding: 2px 0px;
+    margin: 0;
+    max-width: 1600px;
+    height: 100%;
+    display: flex;
+}
+#three-line-butt{
+    overflow-x: visible;
+    margin: 1px;
+    width: 48px;
+    height: 48px;
+    float: left;
+    background: transparent;
+    padding: 6px 0 8px 0px;
+    white-space: nowrap;
+    border: 0;
+    vertical-align: bottom;
+    min-width:0;
+    display: block;  
+    overflow: hidden;
+}
+#three-line-butt::before{
+   width: 20px;
+   height: 20px;
+   margin: 6px 0px 0px 0px;
+   vertical-align: baseline;
+   line-height: 15px;
+   content: "";
+   display: inline-block;
+   font-size: 20px;
+   color: #000;
+   font-family:"text-4" ;
+   white-space: nowrap;
+   text-decoration: none;
+   box-sizing: border-box;
+}
+#search-butt{
+    overflow-x: visible;
+    left: 1px;
+    padding: 8px 8px 8px 0px;
+    margin-left: 2px;
+    border: 0;
+    height: 32px;
+    width: 34px;
+    background: transparent;
+    margin-right: 6px;
+    margin-top: -1px;
+    white-space: nowrap;
+    line-height: 18px;  
+    position: relative; 
+    align-self: center;
+}
+#search-butt::after{
+    vertical-align: baseline;
+    font-family: text-4;
+    content: "";
+    border: none;
+    font-size: 16px;
+    margin-left: 2px;
+    position: relative;
+    text-indent: 0;
+    text-decoration: none;
+    white-space: nowrap;
+    line-height: 18px;
+}
+#Microsoft-butt{
+    margin: 1px;
+    padding: 12px 4px;
+    float: none;
+    display: block;
+    position: absolute;
+    left:calc(50% - 60px) ;
+    height: auto;
+    text-decoration: none;
+    color: #000;   
+}
+#Microsoft-butt img{
+    margin-top: 0px;
+    max-width: none;
+    display: block;
+    margin: 0;
+    height: auto;
+    vertical-align: middle;
+    height:23px ;
+    margin-top: -3px;
+}
+#header-1-section-2{
+    left: 0;
+    border-bottom: 1px solid #e6e6e6;
+    display: block;
+    height: 34px;
+    position: absolute;
+    width: 100%;
+    top: 54px;
+    float: right;  
+}
+#Azure-arrow-arrow-down-butt{
+    background: transparent;
+    border: 0;
+    color: #000;
+    display: block;
+    font-weight: 600;
+    height: 100%;
+    margin: 0 1px;
+    padding: 0 15px;
+    text-align: left;
+    font-family: text-2;
+     font-size: 15px;
+     letter-spacing: normal;
+     line-height: normal;
+}
+#Azure-arrow-arrow-down-butt::after{
+    font-family: text-4;
+    content: "";
+    font-size: 12px;
+    font-weight: 700;
+    padding-left: 11px;
+    position: relative;
+    top: 2px;
+    text-align: left;
+}
+#main-1{
+    margin-top:34px ;
+}
+.main-1-section-1{
+    position: unset;
+    transform: unset;
+    max-height: 180px;
+    overflow: hidden;
+    width: 100%;
+}
+.main-banner-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.main-1-section-2{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: calc(2rem + 56px);
+    background: linear-gradient(90deg, rgb(237, 232, 246) 0%,
+    rgb(244, 250, 253) 49.99%, rgb(220, 238, 248) 100%);
+
+}
+.main-1-section-2-inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-1-section-2-inner-child{
+   margin-top: 2rem;
+   display: flex;
+   column-gap: 0.75rem;
+   flex-wrap: wrap;
+   margin-bottom: 0.5rem;
+   flex-direction: column;
+}
+.main-1-section-2-inner-child-inner{
+    flex: 0 0 calc(calc(100% - calc(0.75rem * (1 - 1)))/1);
+}
+.main-1-section-2-content-1{
+    margin: 0 0 0.75rem;
+    color: #17253d;
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 0.08em;
+    font-family: text-2;
+}
+.main-1-section-2-content-2{
+    color: #0e1726;
+    margin: 0;
+    font-size: 32px;
+    letter-spacing:-1.6px;
+    line-height: 40px;
+    font-size: 600;
+    font-family: text-2;
+}
+.main-1-section-2-content-3{
+    color: #17253d;
+    margin: 1rem 0 0;
+    padding-inline-end: 1rem;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    letter-spacing: -0.03em;
+    font-family: text-1;
+}
+.main-1-section-2-content-4{
+   margin: 1.5rem 0 0;
+}
+.main-1-section-2-content-3-butts{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+#get-strt-butt{
+    border: 2px solid transparent;
+    justify-content: center;
+    padding: 0.75rem 0.75rem;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    line-height: 1.375rem;
+    letter-spacing: -.02em;
+    text-decoration: none;
+    color:#fff ;
+    background-color:#0078d4;
+    border-radius: 0.5rem;
+    display: inline-block;
+}
+#get-strt-butt span{
+    display: block;
+    text-align: center;
+    padding-bottom: 0.125rem;
+    font-family: text-2;
+}
+#try-azr-butt{
+    justify-content: center;
+    padding: 0.75rem 0.75rem;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    line-height: 1.375rem;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    color:#000000 ;
+    background-color:#89c402;
+    border-radius: 0.5rem;
+    display: inline-block;
+    height: 52px;
+    border: 2px solid transparent;
+}
+#try-azr-butt span{
+    display: block;
+    text-align: center;
+    padding-bottom: 0.125rem;
+    font-family: text-2;  
+}
+#main-1-section-3-part-1{
+    top: 0;
+    position: sticky;
+    z-index: 500;
+}
+.azure-news{
+    height: 56px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #fff;
+    border-top: 1px solid rgb(239, 239, 239);
+    border-bottom: 1px solid rgb(239, 239, 239);
+
+}
+.azure-news nav{
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    margin-right: auto;
+    margin-right: auto;  
+}
+.azure-news-dropdown{
+    margin: 0.25rem;
+    flex-grow: 1;
+    box-shadow: none;
+    overflow: initial;
+    display: flex;
+    position: relative;
+}
+.azure-news-dropdown a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+}
+.azure-news-dropdown-inner{
+    padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+    column-gap: 0.5rem;
+    align-items: center;
+    display: flex;  
+}
+.azure-news-dropdown-inner-child{
+    row-gap: 0.25rem;
+    flex-grow: 1;
+    flex-direction: column;   
+}
+.azure-news-dropdown-inner-child div{
+    color: #004275;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: -0.48px;
+    line-height: 16px;
+    text-align: left;
+    font-family: text-2;
+}
+.azure-news-dropdown-arrow {
+   align-self: flex-end; 
+}
+.azure-news-dropdown-arrow-inner{
+    color: #004275;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    font-size: 1rem;
+}
+.azure-news-dropdown-arrow-inner span{
+    transform: rotate(0);
+}
+.azure-news-dropdown-arrow-inner span::before{
+    content: "";
+    font-family: text-3;
+    font-weight: 400;
+    line-height: 1;
+}
+.azure-news-dropdown-bottom-bar{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0.25rem;
+    background-color: #0078d4;
+}
+.azure-news-butt{
+    margin-bottom: 0.75rem;
+    margin-top: 0.75rem;
+    display: contents;
+    align-items: center;
+    display: flex;  
+}
+.azure-news-butt a{
+    justify-content: center;
+    border: 2px solid #89c402;
+    padding: 0.25rem 0.75rem;
+    font-weight: 600;
+    font-size: .9375rem;
+    line-height: 1.375rem;
+    letter-spacing: -.02em;
+    background-color: #89c402;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-family: text-2;
+    color: #000;
+    display: inline-block;
+}
+.azure-news-butt a span{
+    padding-bottom: 0.125rem;
+    display: block;
+    text-align: center;
+}
+.main-1-section-3-part-2{
+    background-color: #f4fafd;
+}
+.main-1-section-3-part-2-inner{
+   padding-top: 56px;
+}
+.main-1-section-3-part-2-inner-child{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.main-1-section-3-part-2-inner-child-head{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.main-1-section-3-part-2-inner-child-head-inner{
+    flex: 0 0 calc(calc(100% - calc(0.75rem * (1 - 1)))/1);
+}
+#main-1-section-3-part-2-small-head{
+    margin: 0 0  0.75rem;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.96px;
+    line-height: 16px;
+    text-align: left;
+    font-family: text-2;
+}
+#main-1-section-3-part-2-large-head{
+    font-weight: 600;
+    letter-spacing: -1.2px;
+    line-height: 32px;
+    text-align: left;
+    font-family: text-2;
+}
+.main-1-section-3-part-2-inner-child-content{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap; 
+    width: 100%;
+}
+.girds-1{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: normal;
+   flex-grow: 1;
+}
+.girds-1-inner{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 0.5rem;
+}
+.girds-1-child{
+    flex: 0 0 calc(calc(100% - calc(0.75rem * (1 - 1)))/1);
+}
+.girds-1-child-inner{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 1px;
+    word-wrap: break-word;
+    box-shadow:0 0 0.125rem rgba(0, 0, 0, 0.12) ,0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
+    background: #fefefe;
+    border-radius: 1rem;
+    height: 100%;
+}
+.girds-1-child-img{
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.girds-1-child-img-inner{
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+.girds-1-child-img-inner img{
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    object-fit:fill;
+    border-radius: 0.5rem;
+    aspect-ratio: 1.77778;
+    vertical-align: middle;
+}
+.girds-1-child-texts{
+  padding: 1rem;   
+}
+.girds-1-child-text-part-1{
+    align-items: flex-start;
+    text-align: left;
+    display: flex;
+    gap: 0.75rem;
+    flex-direction: column;
+}
+.girds-1-child-text-part-1-small{
+    margin-top: 0.25rem;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.54px;
+    line-height: 24px;
+    overflow-wrap:break-word ;
+    text-align: left;
+    font-family: text-2;
+}
+.girds-1-child-text-part-1-large{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.75rem;
+    padding-inline-end: 0rem;
+}
+.girds-1-child-text-part-1-large span{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.48px;
+    line-height: 24px;
+    text-align: left;
+    overflow-wrap: break-word;
+    font-family: text-1;
+}
+.girds-1-child-text-part-2{
+    margin-top: 2rem;
+    justify-content: flex-start;
+    flex-direction: row;
+    display: flex;
+    gap:initial ; 
+}
+.girds-1-child-text-part-2 a{
+    color: #004275;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: -0.48px;
+    line-height: 20px;
+    overflow-wrap: break-word;
+    text-align: left;
+    display: inline-flex;
+    gap: 0.5rem;
+    text-decoration: none;
+    font-family: text-1;
+    box-sizing: border-box;
+}
+#arrow-left-button{
+    flex-grow: 1;
+    padding:8px;
+    border-radius: 0.5rem;
+    background-color: #0078d4;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    justify-content: center;
+    position: relative;
+    min-height: 35px;
+    min-width: 34.7px;
+}
+#arrow-left-button span{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+#arrow-left-button span::before{
+    content: "";
+    font-family: text-3;
+    font-weight: 400;
+    line-height: 1;
+    color: #fff;
+    box-sizing: border-box;
+}
+#arrow-left-button-next-text{
+    padding-bottom:2px ;
+    align-content: center;
+}
